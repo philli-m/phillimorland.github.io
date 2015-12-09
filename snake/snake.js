@@ -31,15 +31,15 @@ function game_stop() {
   console.log(num_tiles)
     //game_count = game_count + 1;
 
-  $.ajax({
-    type: "POST",
-    async: false,
-    url: "snake.php",
-    data: {
-      num_tiles: num_tiles,
-      term: term
-    }   //  game_count
-  })
+  // $.ajax({
+  //   type: "POST",
+  //   async: false,
+  //   url: "snake.php",
+  //   data: {
+  //     num_tiles: num_tiles,
+  //     term: term
+  //   }   //  game_count
+  // })
 
   //context.clearRect(0, 0, canvas.width, canvas.height);
 }
