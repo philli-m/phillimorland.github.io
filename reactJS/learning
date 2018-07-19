@@ -1,0 +1,15 @@
+//function for iterating through list and printing all iterations seperatly
+
+
+    var categoryChoices = this.props.commentCategoryChoices
+    let categoryCheck = ""
+
+    var categories = Object.keys(categoryChoices).map(function(objectKey, index) {
+        categoryCheck = categoryChoices[objectKey];
+        return (
+        <div>
+          <input type="checkbox" id="scales" name="feature" value="scales" />
+          <label htmlFor="scales">{categoryCheck}</label>
+        </div>
+      )
+    });
