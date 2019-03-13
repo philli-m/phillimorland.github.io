@@ -1,6 +1,5 @@
 body {
-    background: url(./texture.jpg);
-    font-family:Helvetica;
+    background: url(.images/texture.jpg);
     color:#B0E0E6;
     font-size:11pt;
 }
@@ -40,7 +39,7 @@ div {
     position: relative;
     left:800px;
 }
-#two {
+.two {
     position:absolute;
     top: 805px;
     left: 200px;
@@ -48,13 +47,13 @@ div {
     width:5px;
     background-color: #7CFC00;
 }
-#two p{
+.two p {
     position: relative;
     top:-21px;
     left: -50px;
     width: 300px;
 }
-#three {
+.three {
     position:absolute;
     top: 745px;
     left: 100px;
@@ -62,13 +61,13 @@ div {
     width:5px;
     background-color: #7CFC00;
 }
-#three p{
+.three p{
     position: relative;
     top:-21px;
     left: -50px;
     width: 300px;
 }
-#four {
+.four {
     position:absolute;
     top: 685px;
     left: 70px;
@@ -76,12 +75,13 @@ div {
     width:5px;
     background-color: #7CFC00;
 }
-#four p{
+.four p{
     position: relative;
     top:-21px;
     left: -50px;
     width: 300px;
-}#five {
+}
+.five {
     position:absolute;
     top: 625px;
     left: 66px;
@@ -89,12 +89,13 @@ div {
     width:5px;
     background-color: #7CFC00;
 }
-#five p{
+.five p{
     position: relative;
     top:-21px;
     left: -50px;
     width: 300px;
-}#six {
+}
+.six {
     position:absolute;
     top: 565px;
     left: 80px;
@@ -102,12 +103,13 @@ div {
     width:5px;
     background-color: #7CFC00;
 }
-#six p{
+.six p{
     position: relative;
     top:-21px;
     left: -50px;
     width: 300px;
-}#seven {
+}
+.seven {
     position:absolute;
     top: 505px;
     left: 120px;
@@ -115,12 +117,13 @@ div {
     width:5px;
     background-color: #7CFC00;
 }
-#seven p{
+.seven p{
     position: relative;
     top:-21px;
     left: -50px;
     width: 300px;
-}#eight {
+}
+.eight {
     position:absolute;
     top: 445px;
     left: 130px;
@@ -128,12 +131,13 @@ div {
     width:5px;
     background-color: #7CFC00;
 }
-#eight p{
+.eight p{
     position: relative;
     top:-21px;
     left: -50px;
     width: 300px;
-}#nine {
+}
+.nine {
     position:absolute;
     top: 385px;
     left: 95px;
@@ -141,12 +145,13 @@ div {
     width:5px;
     background-color: #7CFC00;
 }
-#nine p{
+.nine p{
     position: relative;
     top:-21px;
     left: -50px;
     width: 300px;
-}#ten {
+}
+.ten {
     position:absolute;
     top: 325px;
     left: 75px;
@@ -154,13 +159,13 @@ div {
     width:5px;
     background-color: #7CFC00;
 }
-#ten p{
+.ten p{
     position: relative;
     top:-21px;
     left: -50px;
     width: 300px;
 }
-#eleven {
+.eleven {
     position:absolute;
     top: 265px;
     left: 70px;
@@ -168,12 +173,13 @@ div {
     width:5px;
     background-color: #7CFC00;
 }
-#eleven p{
+.eleven p{
     position: relative;
     top:-21px;
     left: -50px;
     width: 300px;
-}#twelve {
+}
+.twelve {
     position:absolute;
     top: 205px;
     left: 80px;
@@ -181,12 +187,13 @@ div {
     width:5px;
     background-color: #7CFC00;
 }
-#twelve p{
+.twelve p{
     position: relative;
     top:-21px;
     left: -50px;
     width: 300px;
-}#thirteen {
+}
+.thirteen {
     position:absolute;
     top: 145px;
     left: 110px;
@@ -194,12 +201,13 @@ div {
     width:5px;
     background-color: #7CFC00;
 }
-#thirteen p{
+.thirteen p{
     position: relative;
     top:-21px;
     left: -50px;
     width: 300px;
-}#fourteen {
+}
+.fourteen {
     position:absolute;
     top: 85px;
     left: 170px;
@@ -207,13 +215,13 @@ div {
     width:5px;
     background-color: #7CFC00;
 }
-#fourteen p{
+.fourteen p{
     position: relative;
     top:-21px;
     left: -50px;
     width: 300px;
     }
-#fifteen {
+.fifteen {
     position:absolute;
     top: 25px;
     left: 170px;
@@ -221,13 +229,13 @@ div {
     width:5px;
     background-color: #7CFC00;
 }
-#fifteen p{
+.fifteen p{
     position: relative;
     top:-21px;
     left: -50px;
     width: 300px;
 }
-#ceramic {
+.ceramic {
     position:absolute;
     top: 720px;
     left: 365px;
@@ -235,12 +243,12 @@ div {
     width:60px;
     background-color: #DC143C;
 }
-#ceramic p{
+.ceramic p{
     position: relative;
     left: 200px;
     width: 300px;
 }
-#ceramic div.line{
+.ceramic div.line{
     position: relative;
     top: 29px;
     left: 60px;
@@ -250,7 +258,7 @@ div {
 }
 
 
-#bakery {
+.bakery {
     position:absolute;
     top: 500px;
     left: 90px;
@@ -258,13 +266,13 @@ div {
     width:300px;
     background-color: #FF4500;
 }
-#bakery p{
+.bakery p{
     position: relative;
     top: 123px;
     left: 500px;
     width: 300px;
 }
-#bakery div.line{
+.bakery div.line{
     position: relative;
     top: 150px;
     left: 300px;
@@ -273,7 +281,7 @@ div {
     background-color: yellow;
 }
 
-#forensic{
+.forensic{
     position:absolute;
     top: 405px;
     left: 420px;
@@ -281,13 +289,13 @@ div {
     width:180px;
     background-color: #EEAD0E;
 }
-#forensic p{
+.forensic p{
     position: relative;
     top: 42px;
     left: 390px;
     width: 300px;
 }
-#forensic div.line{
+.forensic div.line{
     position: relative;
     top: 70px;
     left: 180px;
@@ -295,7 +303,7 @@ div {
     width: 205px;
     background-color: yellow;
 }
-#bar {
+.bar {
     position:absolute;
     top: 525px;
     left: 590px;
@@ -303,13 +311,13 @@ div {
     width:40px;
     background-color: #8B008B;
 }
-#bar p{
+.bar p{
     position: relative;
     top:-7px;
     left: 228px;
     width: 300px;
 }
-#bar div.line{
+.bar div.line{
     position: relative;
     top: 20px;
     left: 42px;
@@ -317,7 +325,7 @@ div {
     width: 180px;
     background-color: yellow;
 }
-#chef {
+.chef {
     position:absolute;
     top: 490px;
     left: 350px;
@@ -325,12 +333,12 @@ div {
     width:60px;
     background-color: #228B22;
 }
-#chef p{
+.chef p{
     position: relative;
     left: 280px;
     width: 300px;
 }
-#chef div.line{
+.chef div.line{
     position: relative;
     top: 26px;
     left: 63px;
@@ -338,7 +346,7 @@ div {
     width: 210px;
     background-color: yellow;
 }
-#office{
+.office{
     position:absolute;
     top: 75px;
     left: 100px;
@@ -346,13 +354,13 @@ div {
     width:415px;
     background-color: #008B8B;
 }
-#office p{
+.office p{
     position: relative;
     top: 180px;
     left: 495px;
     width: 400px;
 }
-#office div.line{
+.office div.line{
     position: relative;
     top: 207px;
     left: 420px;
@@ -360,7 +368,7 @@ div {
     width: 70px;
     background-color: yellow;
 }
-#art {
+.art {
     position:absolute;
     top: 60px;
     left: 500px;
@@ -368,13 +376,13 @@ div {
     width:10px;
     background-color: #006400;
 }
-#art p{
+.art p{
     position: relative;
     top:-21px;
     left: 220px;
     width: 300px;
 }
-#art div.line{
+.art div.line{
     position: relative;
     top: 4px;
     left: 12px;
@@ -382,7 +390,7 @@ div {
     width: 200px;
     background-color: yellow;
 }
-#code {
+.code {
     position:absolute;
     top: -300px;
     left: 180px;
@@ -390,13 +398,13 @@ div {
     width: 400px;
     background-color: #8B0A50;
 }
-#code p{
+.code p{
     position: relative;
     top: 304px;
     left: 400px;
     width: 400px;
 }
-#code div.line{
+.code div.line{
     position: relative;
     top: 330px;
     left: 355px;
