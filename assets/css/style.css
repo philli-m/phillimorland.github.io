@@ -1,0 +1,67 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  --pico-font-weight: 300;
+  --pico-font-family: var(--pico-font-family-monospace);
+}
+
+
+h3 {
+    --pico-font-size: 1.25rem;
+    --pico-line-height: 1.175;
+    --pico-typography-spacing-top: 2.25rem;
+  }
+
+header {
+  margin-top: 3rem;
+}
+
+article {
+  background: none;
+  box-shadow: none;
+}
+
+.t-center,
+.t-right,
+.t-left {
+    text-align: center;
+}
+
+.date {
+  font-family: var(--pico-font-family-monospace);
+}
+
+@media (min-width: 768px) {
+    section {
+      margin-bottom: 3rem; 
+    }
+
+    .t-right {
+        text-align: right;
+    }
+
+    .t-left {
+      text-align: left;
+    }
+}
+
+.visible-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.visible-hidden:focus {
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  width: auto;
+}
+
