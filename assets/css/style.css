@@ -1,3 +1,54 @@
+/* Light color scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+    --background-color: #f8f9f7;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #0D160B;
+    }
+
+    p {
+      color: #360036;
+    }
+
+    a {
+      color: #d50000;
+      text-decoration-color: #d50000;
+      /* font-weight: 300; */
+    }
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+      --background-color: #1E1E1E;
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: #F5F5F5;
+      }
+
+      p {
+        color: #CCCCCC;
+      }
+
+      a {
+        color: #FF5722;
+        text-decoration-color: #FF5722;
+        /* font-weight: 300; */
+      }
+  }
+}
+
 h1,
 h2,
 h3,
@@ -24,6 +75,14 @@ article {
   box-shadow: none;
 }
 
+p {
+  font-weight: 200;
+}
+
+.container {
+    max-width: 750px;
+}
+
 .t-center,
 .t-right,
 .t-left {
@@ -32,11 +91,12 @@ article {
 
 .date {
   font-family: var(--pico-font-family-monospace);
+  font-weight: lighter;
 }
 
 @media (min-width: 768px) {
     section {
-      margin-bottom: 3rem; 
+      margin-bottom: 3rem;
     }
 
     .t-right {
@@ -64,4 +124,3 @@ article {
   position: absolute;
   width: auto;
 }
-
