@@ -20,7 +20,7 @@
     a {
       color: #d50000;
       text-decoration-color: #d50000;
-      /* font-weight: 300; */
+      /* --pico-font-weight: 300; */
     }
 }
 
@@ -44,7 +44,7 @@
       a {
         color: #FF5722;
         text-decoration-color: #FF5722;
-        /* font-weight: 300; */
+        /* --pico-font-weight: 400; */
       }
   }
 }
@@ -64,6 +64,8 @@ h3 {
     --pico-font-size: 1.25rem;
     --pico-line-height: 1.175;
     --pico-typography-spacing-top: 2.25rem;
+
+    margin-block-start: 1rem;
   }
 
 header {
@@ -73,10 +75,6 @@ header {
 article {
   background: none;
   box-shadow: none;
-}
-
-p {
-  font-weight: 200;
 }
 
 .container {
